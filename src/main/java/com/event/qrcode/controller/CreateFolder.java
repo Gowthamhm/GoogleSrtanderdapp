@@ -29,7 +29,6 @@ public class CreateFolder extends HttpServlet {
      */
     public CreateFolder() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -40,7 +39,7 @@ public class CreateFolder extends HttpServlet {
 		HttpSession session = request.getSession();
 		String folder_name = request.getParameter("folder");
         String username = request.getParameter("username");
-        UserBean ub = new UserBean();
+        // UserBean ub = new UserBean();
         DbConnection db = new DbConnection();
         FolderBean fb = new FolderBean();
 
@@ -54,7 +53,6 @@ public class CreateFolder extends HttpServlet {
         try {
 			db.createFolder();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
         String pa = db.getPath();

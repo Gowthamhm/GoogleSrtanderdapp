@@ -1,6 +1,7 @@
 package com.event.qrcode.bean;
 
 public class UserBean {
+        private static final long serialVersionUID = 1L;
     private static String username;
     private static String password;
     private static String email;

@@ -1,5 +1,6 @@
 package com.event.qrcode.bean;
 public class QrCodeBean {
+        private static final long serialVersionUID = 1L;
 	 private String foldername;
 	    private String orignal_text;
 	    private String qouted_Text;

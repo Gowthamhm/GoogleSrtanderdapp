@@ -1,6 +1,11 @@
 package com.event.qrcode.bean;
 
 public class FolderBean {
+    	/**
+	 * 
+	 */
+    private static final long serialVersionUID = 1L;
+    
 	private String folder_name;
 	private String creator;
 	private String time;
